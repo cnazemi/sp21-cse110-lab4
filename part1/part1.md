@@ -9,3 +9,8 @@
 
 
 # 1b
+
+1. error, i doesn't exist outside the scope of the for loop it was declared for.
+2. it will print the last value that discountedPrice had before the for loop terminated.
+3. it will print the last value that finalPrice had before the for loop terminates.
+4. [50, 100, 150] It returns the discounted price of 50%, so each value in the inputted prices is halved.
