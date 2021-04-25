@@ -10,7 +10,14 @@
 
 # 1b
 
-1. error, i doesn't exist outside the scope of the for loop it was declared for.
-2. it will print the last value that discountedPrice had before the for loop terminated.
+1. it will print the last value of i before the for loop was terminated.
+2. it will print the last value that discountedPrice had before the for loop terminated because its declared as var.
 3. it will print the last value that finalPrice had before the for loop terminates.
 4. [50, 100, 150] It returns the discounted price of 50%, so each value in the inputted prices is halved.
+5. error, i doesn't exist outside the scope of the for loop it was declared for because its declared as a let variable.
+6. error, discountedPrice doesn't exist outside the scope of the for loop it was declared for because its declared as a let variable.
+7. It will price the last value of the finalPrice before the for loop terminates.
+8. [50, 100, 150] It returns the discounted price of 50%, so each value in the inputted prices is halved.
+9. error, i doesn't exist outside the scope of the for loop it was declared for because its declared as a let variable.
+10. it will print the length variable since it was declared outside the for loop scope block and was never changed.
+11. [50, 100, 150] It returns the discounted price of 50%, so each value in the inputted prices is halved.
