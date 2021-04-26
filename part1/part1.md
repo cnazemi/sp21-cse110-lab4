@@ -22,8 +22,8 @@
 10. it will print the length variable since it was declared outside the for loop scope block and was never changed.
 11. [50, 100, 150] It returns the discounted price of 50%, so each value in the inputted prices is halved.
 12. 
-    a.  student.name;
-    b.  student["Grad Year"];
+    a.  student.name;\\
+    b.  student["Grad Year"];\\
     c.  student.greeting();
     d.  student["Favorite Teacher"].name;
     e.  student.courseLoad[0];
