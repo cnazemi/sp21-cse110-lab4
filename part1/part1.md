@@ -36,3 +36,12 @@
     F.  0, false as a number is 0 and null as a number is 0, so 0 + 0 is 0. <br />
     G.  '3undefined', 3 is concatinated to the string "undefined". <br />
     H.  NaN, subtracting a string from undefined is not a valid operation, so it results in it being "Not a Number" NaN. <br />
+
+14. 
+    A.  true, 2 becomes the number 2, so 2 > 1 is true <br />
+    B.  false, with two strings, it compares each character at a time, and '2' is greater than '1', therefore '2' should be greater than '12'. <br />
+    C.  true, '2' is converted into an int 2, so 2 == 2. <br />
+    D.  false, === is stricter, and because 2 and '2' are different types, it returns false immediatly since they are different types. <br />
+    E.  false, true as an int is 1, so 1 != 2 which is why its false. <br />
+    F.  true, all values that are not 0, null, undefined and NaN are true as a boolean. Here 1 is true. <br />
+15. == is a weak comparison between two types, while === is strict. === will return false immediatly if the two values being compared are of different values. While == will still evaluate accordingly if the types differ.
