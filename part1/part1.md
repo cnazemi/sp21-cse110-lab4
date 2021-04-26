@@ -22,8 +22,17 @@
 10. it will print the length variable since it was declared outside the for loop scope block and was never changed.
 11. [50, 100, 150] It returns the discounted price of 50%, so each value in the inputted prices is halved.
 12. 
-    a.  student.name; <br />
-    b.  student["Grad Year"]; <br />
-    c.  student.greeting(); <br />
-    d.  student["Favorite Teacher"].name; <br />
-    e.  student.courseLoad[0]; <br />
+    A.  student.name; <br />
+    B.  student["Grad Year"]; <br />
+    C.  student.greeting(); <br />
+    D.  student["Favorite Teacher"].name; <br />
+    E.  student.courseLoad[0]; <br />
+13. 
+    A.  '32', the + operator concatenates. <br />
+    B.  1, subtraction cannot be proformmed on string so it converts '3' into the int 3 and subtracts. <br />
+    C.  3, null as a number is 0, so 3 + 0 is 3 <br />
+    D.  '3null', the string '3' is concatenated to the string null. <br />
+    E.  4, true as a number is 1, so 1 + 3 is 4. <br />
+    F.  0, false as a number is 0 and null as a number is 0, so 0 + 0 is 0. <br />
+    G.  '3undefined', 3 is concatinated to the string "undefined". <br />
+    H.  NaN, subtracting a string from undefined is not a valid operation, so it results in it being "Not a Number" NaN. <br />
