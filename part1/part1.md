@@ -45,3 +45,5 @@
     E.  false, true as an int is 1, so 1 != 2 which is why its false. <br />
     F.  true, all values that are not 0, null, undefined and NaN are true as a boolean. Here 1 is true. <br />
 15. == is a weak comparison between two types, while === is strict. === will return false immediatly if the two values being compared are of different values. While == will still evaluate accordingly if the types differ.
+
+17. [2, 4, 6], During each iteration, I called doSomething on each element in the input array, then appended each returned value of doSomething (it multiplies the inputted number by 2) to the newArr array. Then returned it: [2, 4, 6].
